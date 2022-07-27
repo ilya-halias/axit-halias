@@ -1,0 +1,70 @@
+.price{
+    width: 1170px;
+    background-color: #F5F5F5;
+    margin: 0 15px;
+}
+.options{
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+
+}
+hr{
+    width: 170px;
+    border: 1px solid#EC7979;
+    margin: 0 auto;
+}
+.lorem{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.section{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.section__1{
+    width: 370px;
+    color: #F5F5F5;
+    margin-top: 79px;
+}
+.section__1--Basic{
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #252525;
+    margin: 0;
+
+}
+.section__1--\$10{
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 700;
+    background-color: #252525;
+    margin-top: 2px;
+    padding: 20px 0;
+    margin-bottom: 1px;
+
+}
+.section__1--Free{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #252525;
+    margin: 1px auto;
+}
+.section__1--space{
+    background-color: #FFFFFF;
+    color: #252525;
+    border:1px solid #252525;
+    margin:0;
+    padding: 10px 0;
+}
+.section__middle{
+    margin-top: 59px;
+}

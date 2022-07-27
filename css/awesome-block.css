@@ -1,0 +1,55 @@
+title{
+    width: 1170px;
+    height: 150px;
+    margin: 50px 0 0 0;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 150px;
+    text-align: center;
+    font-size: 36px;
+}
+hr{
+    width: 170px;
+    border: 1px solid#EC7979;
+}
+.subtitle{
+    width: 1170px;
+    height: 21px;
+    font-family: Raleway;
+    font-size: 18px;
+    text-align: center;
+    margin: 40px 0 auto;
+    line-height: 21px;
+    color: #86878B
+}
+.advantage{
+    margin: 71px auto 0;
+    display: flex;
+    height: 383px;
+    list-style: none;
+    padding: 0;
+}
+.advantage__card{
+    width: 370px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.advantage__card--one{
+    width: 369px;
+    margin:  0 auto;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100px;
+}
+.advantage__card--two{
+    width: 370px;
+    margin: 0;
+    font-family: Raleway;
+    font-weight: 400;
+}
