@@ -1,0 +1,55 @@
+h1{
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+    background-color: aquamarine;
+}
+h1:hover{
+    text-align: center;
+}
+h1:active{
+    color: #F5F5F5;
+    background-color: red;
+}
+p:focus{
+    color: #F5F5F5;
+    background-color: darkblue;
+}
+
+a:visited {
+    color: red;
+    background-color: aquamarine;
+}
+ul{
+    font-size: 30px;
+}
+li:nth-child(4){
+    background-color: #EC7979;
+}
+li{
+    position: relative;
+    padding-left: 20px;
+    list-style: none;
+}
+li::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    top:15px;
+
+
+}
+li::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    right: 40px;
+
+
+}
