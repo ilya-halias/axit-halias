@@ -1,15 +1,9 @@
 .customers{
-    width: 1170px;
-    margin: 0 15px;
+    max-width: 1170px;
+    margin: 0 auto;
     text-align: center;
-}
-.title{
-    text-transform: uppercase;
-    font-size: 36px;
-    padding: 57px;
     margin-top: 50px;
-    font-weight: 400;
-    font-family: Raleway;
+    padding-bottom: 40px;
 }
 .subtitle{
     font-family: Raleway;
@@ -17,38 +11,55 @@
     font-weight: 400;
     text-align: center;
     margin-top: 40px;
-
 }
+.customers__title{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: Raleway;
+    padding-bottom: 60px;
+}
+.customers__title:after{
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    bottom: 0;
+    left:50%;
+    transform: translate(-50%,0);
+}
+
 .comments{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin-top: 83px;
-    padding-left: 0;
-    position: relative;
-    margin-bottom: 0;
-
-
+    padding: 0 0;
 
 
 }
 .comment{
     width: 370px;
-    background-color: #E2E2E2;
-    padding: 38px 0;
+
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
     color: #86878B;
-    line-height: 21px;
-    border-radius: 5%;
-    position: relative;
     margin: 0 0;
 
+
+}
+.manager__text{
+    background-color: #E2E2E2;
+    margin-top: 66px;
+    padding: 38px 17px;
+    border-radius: 5%;
+    position: relative;
 }
 
-.comment::after{
+.manager__text::after{
     content: "";
     position: absolute;
     width: 0;
@@ -57,50 +68,33 @@
     border-right: 20px solid transparent;
     border-top: 30px solid #E2E2E2;
     top:180px;
-    right: 290px;
+    right: 290px;}
 
-
-}
-.managers{
+.customers__wrap{
     display: flex;
-    justify-content: space-between;
-    list-style: none;
-    margin-top: 46px;
-    padding: 0 0;
-    max-width: 1170px;
-}
+    justify-content: flex-start;
+    margin-top: 70px;
+    gap: 30px;
 
-.manager{
-    width: 370px;
-    display: flex;
-    list-style: none;
-    padding: 0 0;
 
 }
 
 .manager__name{
-    text-align: start;
-
-}
-.manager__img{
-    margin-right: 30px;
-}
-.manager__name--1{
     font-family: Open Sans;
-    font-size: 24px;
     font-weight: 700;
-    line-height: 33px;
     text-align: left;
-    margin: 10px 0;
+    margin: 0 auto;
+    color: #000000;
+;
+
 
 }
-.manager__name--2{
+.manager__post{
     font-family: Raleway;
-    font-size: 18px;
     font-weight: 400;
-    line-height: 21px;
     text-align: left;
+    margin: 0 auto;
+    color: #000000;
     margin-top: 15px;
-
 
 }

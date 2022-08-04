@@ -1,4 +1,4 @@
-body {
+.tabs-block {
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -12,7 +12,7 @@ body {
 }
 .information__position
 {
-    width: 700px;make
+    width: 700px;
     margin: 0;
 }
 .information__position--text{

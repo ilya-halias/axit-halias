@@ -1,0 +1,53 @@
+.design{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/image.png);
+    width: 1510px;
+    margin: 0 auto;
+}
+.axure{
+    margin: 0 auto;
+    width: 1170px;
+}
+.design__title{
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    position: relative;
+    padding-top: 90px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.design__title:after{
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    bottom:-60px;
+    left:50%;
+    transform: translate(-50%,0);
+}
+.design__subtitle{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 110px;
+    color: #FFFFFF;
+
+
+}
+.design__button{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 140px;
+    margin: 73px 400px 50px 400px;
+border:2px solid#FFFFFF;
+    background-color: rgba(28,28,28,0);
+}

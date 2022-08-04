@@ -1,0 +1,29 @@
+.header{
+    background: black;
+    width: 1510px;
+    margin: 0 auto
+}
+.container-header{
+    margin: 0 auto;
+    width: 1280px;
+    display: flex;
+}
+.logo{
+    padding: 15px 0;
+
+}
+.allblock{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    color: #F5F5F5;
+    display: flex;
+list-style: none;
+    width: 515px;
+    justify-content: space-between;
+    margin-left: 625px;
+    padding: 15px 0;
+
+}

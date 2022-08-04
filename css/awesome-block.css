@@ -1,9 +1,14 @@
-.header{
+.awesome-block{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.title{
     font-family: Raleway;
     font-weight: 400;
     text-align: center;
     font-size: 36px;
     text-align: center;
+    padding-top: 110px;
 }
 hr{
     width: 170px;

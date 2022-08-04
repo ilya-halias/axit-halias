@@ -1,0 +1,105 @@
+.axit{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/city.png);
+display: flex;
+    justify-content: space-around;
+    width: 1510px;
+    margin: 0 auto;
+
+}
+.axit-block{
+    width: 1510px;
+    padding-top: 180px;
+    padding-left: 170px;
+}
+.modern{
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    text-align: left;
+    color: #FFFFFF;
+    max-width: 670px;
+    position: relative;
+}
+.modern:after{
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 1px;
+    background-color: #F5F5F5;
+    bottom: 0;
+    top: 220px;
+    left: 0;
+}
+.submodern{
+    margin-top: 100px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #F5F5F5;
+    max-width: 270px;
+}
+.axit-download{
+    color: #F5F5F5;
+    background-color: rgba(28,28,28,0);;
+    border:2px solid#F5F5F5;
+    padding: 15px 90px;
+    margin-top: 40px;
+    margin-bottom: 145px;
+}
+.free{
+    width: 470px;
+    border: 1px solid#FFFFFF;
+    margin-top: 210px;
+    margin-right: 170px;
+    margin-bottom: 295px;
+    border-radius: 10px;
+    background: #FFFFFF;
+
+}
+.free-head{
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.free-data{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    margin: 1px 50px;
+    padding: 15px 1px;
+    color: #BDBDBD
+
+}
+.free-section{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    margin: 1px 50px;
+    width: 370px;
+    background:white;
+
+}
+.free-button{
+    width: 470px;
+    padding: 25px;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 80px;
+    background: #EC7979;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 5px solid #EC7979;
+    margin-bottom: -1px;
+
+}

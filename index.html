@@ -3,15 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
-  <link href="css/tabs-block.css" rel="stylesheet" type="text/css">
-  <link href="css/awesome-block.css" rel="stylesheet" type="text/css">
-  <link href="css/price.css" rel="stylesheet" type="text/css">
-  <link href="css/customers.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap" rel="stylesheet">
 
 </head>
 <body>
-<section>
+<header class="header">
+<div class="container-header">
+  <img class="logo" src="img/AXIT.svg" alt="logo">
+  <img class="logo" src="img/AXIT%20(1).svg" alt="logo">
+
+  <ul class="allblock">
+   <li>Features</li>
+    <li>About</li>
+    <li>Pricing</li>
+    <li>Reviews</li>
+    <li>Contact</li>
+  </ul>
+</div>
+</header>
+<section class="axit">
+ <div class="axit-block">
+  <img class="axit-logo" src="img/AXIT.svg" alt="logo">
+  <img class="axit-logo" src="img/AXIT%20(1).svg" alt="logo">
+<p class="modern">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</p>
+   <p class="submodern">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+   <button class="axit-download">Download</button>
+
+ </div>
+  <div class="free">
+    <h2 class="free-head">Try Your FREE Trial Today</h2>
+    <p class="free-data">Name</p><input class="free-section" type="text">
+    <p class="free-data">Email</p><input class="free-section" type="text">
+    <p class="free-data">Password</p><input class="free-section" type="text">
+    <button class="free-button">Get started</button>
+  </div>
+
+
+
+
+</section>
+<section class="social-media">
+<div class="media">
+<h2 class="media-title">Social Media</h2>
+  <p class="media-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Aenean euismod bibendum laoreet.</p>
+</div>
+  <div class="logo-img">
+    <img src="img/Vector.svg" width="30.32" height="55.42">
+    <img src="img/Vector%20(1).svg" width="57" height="46">
+    <img src="img/Vector%20(2).svg" width="52.5" height="52.5">
+    <img src="img/Vector%20(3).svg" width="58" height="58">
+    <img src="img/Vector%20(4).svg" width="52.52" height="52.52">
+    <img src="img/Vector%20(5).svg" width="58" height="56">
+    <img src="img/Vector%20(6).svg" width="45.38" height="45.38">
+
+  </div>
+</section>
+<section class="tabs-block">
   <ul class="tab">
     <li>
     <button class="tab__one tab__one--active">TAB 1</button>
@@ -42,8 +92,8 @@
     </li>
   </ul>
 </section>
-<section>
-  <h2 class="header">WHY THIS IS AWESOME</h2>
+<section class="awesome-block">
+  <h2 class="title">WHY THIS IS AWESOME</h2>
   <hr>
   <h5 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
   <ul class="advantage">
@@ -67,7 +117,8 @@
   </ul>
 </section>
 <section class="price">
-    <p class="options">PRICING OPTIONS</p>
+   <div class="price__block">
+     <h2 class="options">PRICING OPTIONS</h2>
     <hr>
     <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <ul class="section">
@@ -105,53 +156,77 @@
         <p class="section__1--space">1 gb of space</p>
       </li>
 </ul>
+   </div>
 </section>
 <section class="customers">
-  <h2 class="title">what our customers are saying</h2> <hr>
+  <h2 class="customers__title">what our customers are saying</h2>
   <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   <ul class="comments">
-    <li class="comment">Lorem ipsum dolor sit amet,<br>
+    <li class="comment ">
+      <p class="manager__text">Lorem ipsum dolor sit amet,
       consectetur adipisicing elit. Doloribus
       accusamus expedita repellat similique
       odio aspernatur ex, architecto eaque
-      quo suscipit.</li>
-    <li class="comment">Lorem ipsum dolor sit amet,<br>
-      consectetur adipisicing elit. Doloribus
-      accusamus expedita repellat similique
-      odio aspernatur ex, architecto eaque
-      quo suscipit.</li>
-    <li class="comment">Lorem ipsum dolor sit amet,<br>
-      consectetur adipisicing elit. Doloribus
-      accusamus expedita repellat similique
-      odio aspernatur ex, architecto eaque
-      quo suscipit.</li>
-  </ul>
-  <ul class="managers ">
-    <ul class="manager">
-      <li class="manager__img">
-      <img src="img/Ellipse 7.png">
+      quo suscipit.</p>
+     <div class="customers__wrap">
+       <img class="manager__img" src="img/Ellipse 7.png" alt="face">
+    <div>
+      <h4 class="manager__name">Davis Rhiel Madsen</h4>
+      <p class="manager__post">Manager</p>
+    </div>
+     </div>
     </li>
-    <li class="manager__name">
-      <h4 class="manager__name--1">Davis Rhiel Madsen</h4>
-      <p class="manager__name--2">Manager</p>
-      </ul>
-    <ul class="manager">
+    <li class="comment ">
+      <p class="manager__text">Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Doloribus
+        accusamus expedita repellat similique
+        odio aspernatur ex, architecto eaque
+        quo suscipit.</p>
+      <div class="customers__wrap">
+        <img class="manager__img" src="img/Ellipse 7 (1).png" alt="face">
+        <div>
+          <h4 class="manager__name">Jaydon Rosser</h4>
+          <p class="manager__post">Manager</p>
+        </div>
+      </div>
+    </li>
+    <li class="comment ">
+      <p class="manager__text">Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Doloribus
+        accusamus expedita repellat similique
+        odio aspernatur ex, architecto eaque
+        quo suscipit.</p>
+      <div class="customers__wrap">
+        <img class="manager__img" src="img/Ellipse 7 (2).png" alt="face">
+        <div>
+          <h4 class="manager__name">Cooper Dorwart</h4>
+          <p class="manager__post">Manager</p>
+        </div>
+      </div>
+    </li>
+  </ul>
 
-      </li>  <li class="manager__img">
-      <img src="img/Ellipse 7 (1).png">
-    </li>
-      <li class="manager__name">
-        <h4 class="manager__name--1">Jaydon Rosser</h4>
-        <p class="manager__name--2">Manager</p></ul>
-    <ul class="manager"></li>    <li class="manager__img">
-      <img src="img/Ellipse 7 (2).png">
-    </li>
-    <li class="manager__name">
-      <h4 class="manager__name--1">Cooper Dorwart</h4>
-      <p class="manager__name--2">Manager</p>
-    </li></ul>
-  </ul>
 
 </section>
+<section class="design">
+<div class="axure">
+  <h2 class="design__title">STYLISH AXURE DESIGN</h2>
+  <p class="design__subtitle">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+<button class="design__button">Download</button>
+</div>
+</section>
+
+<footer class="footer">
+  <div class="social">
+    <img src="img/Vector.svg">
+    <img src="img/Vector%20(1).svg">
+    <img src="img/Vector%20(2).svg">
+    <img src="img/Vector%20(3).svg">
+    <img src="img/Vector%20(4).svg">
+    <img src="img/Vector%20(5).svg">
+  <img src="img/Vector%20(6).svg">
+  </div>
+<p class="social__axure">© 2015 Axure Themes</p>
+</footer>
 </body>
 </html>
