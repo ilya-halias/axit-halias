@@ -1,0 +1,95 @@
+.contact{
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+.contact__title{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: Raleway;
+    padding-bottom: 60px;
+}
+.contact__title::after {
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.contact-block{
+display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.contact-data{
+    width: 570px;
+    color: #BDBDBD;
+}
+.contact-data__name{
+    width: 570px;
+    padding: 19px 0;
+    margin-bottom: 16px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid#BDBDBD;
+
+}
+.contact-data__email{
+    margin-top: 50px;
+    width: 570px;
+    padding: 19px 0;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid#BDBDBD;
+}
+
+.contact-data__password{
+    margin-top: 50px;
+    width: 570px;
+    padding: 19px 0;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid#BDBDBD;
+}
+
+textarea{
+    padding-bottom: 248px;
+    width: 570px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    border: none;
+    padding-top: 19px;
+    border-bottom: 1px solid#BDBDBD;
+}
+.contact-button{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background: #EC7979;
+    border: #EC7979;
+    margin-top: 50px;
+    width: 370px;
+    padding: 20px;
+}
