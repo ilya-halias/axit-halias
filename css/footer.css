@@ -1,7 +1,6 @@
 
 .footer {
     background-color: black;
-    width: 1510px;
     margin: 0 auto;
 }
 .social{
@@ -10,7 +9,6 @@
     gap: 40px;
     padding: 33px;
     margin: 0 auto;
-    width: 1170px;
 }
 .social__axure{
     font-family: Raleway;

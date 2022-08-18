@@ -1,15 +1,13 @@
 .header{
-    background: black;
-    width: 1510px;
-    margin: 0 auto
+    background-color: black;
 }
-.container-header{
-    margin: 0 auto;
-    width: 1170px;
+.header-container{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo{
-    padding: 15px 0;
+padding: 15px 0;
 
 }
 .allblock{
@@ -21,11 +19,31 @@
     color: #F5F5F5;
     display: flex;
 list-style: none;
-    width: 515px;
-    justify-content: space-between;
-    margin-left: 625px;
+  max-width: 550px;
+   gap:60px;
     padding: 15px 0;
    }
+@media (max-width: 1510px) {
+    .header-containerr{
+        max-width: 992px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header-container{
+        max-width: 288px;
+        display: block;
+    }
+.allblock{
+    display: block;
+    margin: 0 auto;
+}
 .allblock-element{
-    text-decoration: none;
+    padding: 20px;
+}
+.logo{
+
+}
+
+
 }

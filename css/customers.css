@@ -1,9 +1,11 @@
+.title{
+    position: relative;
+}
+
 .customers{
-    max-width: 1170px;
-    margin: 0 auto;
     text-align: center;
-    margin-top: 50px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+
 }
 .subtitle{
     font-family: Raleway;
@@ -19,6 +21,7 @@
     font-weight: 400;
     font-family: Raleway;
     padding-bottom: 60px;
+    margin: 0;
 }
 .customers__title:after{
     position: absolute;
@@ -36,12 +39,12 @@
     justify-content: space-between;
     list-style: none;
     padding: 0 0;
+    margin: 32px 0 0 0;
 
 
 }
 .comment{
-    width: 370px;
-
+    max-width: 370px;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
@@ -53,7 +56,7 @@
 }
 .manager__text{
     background-color: #E2E2E2;
-    margin-top: 66px;
+    margin: 0 0;
     padding: 38px 17px;
     border-radius: 5%;
     position: relative;
@@ -96,5 +99,20 @@
     margin: 0 auto;
     color: #000000;
     margin-top: 15px;
+
+}
+@media (max-width: 1510px) {
+    .comment{
+max-width: 317px;
+
+    }
+    .manager__text::after{
+        right: 250px;
+    }
+}
+@media (max-width: 1024px) {
+    .comments{
+        flex-direction: column;
+    }
 
 }

@@ -1,41 +1,35 @@
 .tabs-block {
-    max-width: 1170px;
-    margin: 0 auto;
     padding-top: 100px;
 }
 .information{
     display: flex;
-    height: 500px;
-    margin: 0;
+    margin: 0 0;
     padding: 0;
     list-style: none;
     border: 1px solid #C6CBCD;
+    padding-left: 100px;
+    justify-content: space-between;
 }
 .information__position
 {
-    width: 700px;
     margin: 0;
 }
 .information__position--text{
-    width: 570px;
-    height: 124px;
-    margin: 0 30px 0 100px;
-    line-height: 124px;
+       line-height: 124px;
     font-family: "Open Sans";
     font-weight: 700;
     font-size: 30px;
+    margin: 0;
 }
 .information__position--text1{
-    width: 570px;
-    margin: 27px 30px 0 100px;
+    max-width: 570px;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
+    margin: 38px 0 0 0;
 }
 .information__position--download{
-    width: 270px;
-    height: 58px;
-    margin: 27px 0 0 100px;
+    max-width: 270px;
     font-family: "Open Sans";
     font-weight: 600;
     font-size: 18px;
@@ -43,6 +37,7 @@
     background: #EC7979;
     border: #EC7979;
     margin-top: 27px;
+    padding: 15px 75px;
 }
 .tab{
     display: flex;
@@ -56,17 +51,81 @@
     line-height: 40px;
 }
 .tab__one{
-    width: 184px;
+    max-width: 184px;
     height: 40px;
     border: white;
     background-color: white;
 
 }
 .tab__one--active{
-    width: 203px;
+    max-width: 203px;
     height: 40px;
     border: 1px solid #C6CBCD;
     margin-bottom: -1px;
     border-radius: 5px 5px 0 0;
     border-bottom: 5px solid white;
+}
+.liberty{
+    max-width: 100%;
+}
+@media (max-width: 1510px) {
+    .tabs-block{
+        width: 992px;
+    }
+}
+    .tab__one{
+        max-width: 156px;
+        max-height: 35px;
+    }
+    .tab__one--active{
+        max-width: 170px;
+        height: 35px;
+    }
+    .information__position--text{
+        font-size: 26px;
+        line-height: 87px;
+}
+    .information__position--text1{
+        font-size: 14px;
+}
+    .information{
+        padding-left: 85px;
+    }
+.information__position
+{
+    min-width: 482px;
+    padding-right: 26px;
+}
+.information__position--download{
+    max-width: 240px;
+margin-bottom: 50px;
+}
+.liberty{
+    height: 100%;
+}
+
+
+@media (max-width: 1024px) {
+    .tabs-block{
+        max-width: 288px;
+    }
+    .liberty{
+        display: none;
+    }
+    .information__position{
+        min-width: 288px;
+        padding: 0;
+    }
+    .information{
+        max-width: 288px;
+        padding: 0;
+        text-align: center;
+    }
+    .tab__one{
+        min-width: 93px;
+    }
+    .tab__one--active{
+        min-width: 100px;
+        height: 35px;
+    }
 }

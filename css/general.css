@@ -1,0 +1,50 @@
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+button , a{
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.title::after {
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);}
+
+@media (max-width:1510px){
+    .container{
+        max-width: 992px;
+    }
+    .title{
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+          }
+    .title::after {
+        max-width: 142px;
+    }
+    .subtitle{
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+@media (max-width: 1024px) {
+    .container{
+        max-width: 288px;}
+    .title::after {
+        max-width: 134px;
+    }
+}

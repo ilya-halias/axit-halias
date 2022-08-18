@@ -1,15 +1,19 @@
 .axit{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/city.png);
-display: flex;
-    justify-content: space-around;
-    width: 1510px;
     margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
 }
+.axit-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    padding-bottom: 135px;
+}
 .axit-block{
-    width: 1510px;
-    padding-top: 180px;
-    padding-left: 170px;
+    max-width: 670px;
 }
 .modern{
     font-family: Raleway;
@@ -18,8 +22,10 @@ display: flex;
     line-height: 56px;
     text-align: left;
     color: #FFFFFF;
-    max-width: 670px;
     position: relative;
+    margin: 70px 0 0;
+    padding-bottom: 55px;
+
 }
 .modern:after{
     position: absolute;
@@ -28,7 +34,7 @@ display: flex;
     height: 1px;
     background-color: #F5F5F5;
     bottom: 0;
-    top: 220px;
+
     left: 0;
 }
 .submodern{
@@ -47,17 +53,16 @@ display: flex;
     border:2px solid#F5F5F5;
     padding: 15px 90px;
     margin-top: 40px;
-    margin-bottom: 145px;
 }
 .free{
-    width: 470px;
+    max-width: 470px;
     border: 1px solid#FFFFFF;
-    margin-top: 210px;
-    margin-right: 170px;
-    margin-bottom: 295px;
-    border-radius: 10px;
     background: #FFFFFF;
+    max-height: 450px;
 
+}
+.axit-imput{
+    max-height: 450px;
 }
 .free-head{
     font-family: Open Sans;
@@ -75,23 +80,22 @@ display: flex;
     font-weight: 400;
     line-height: 19px;
     text-align: left;
-    margin: 33px 50px 0 50px;
-    padding: 15px 1px;
-    color: #BDBDBD;
+    padding: 24px;
     width: 370px;
     border: none;
     border-bottom: 1px solid#BDBDBD;
+    display: block;
 }
 .free-section{
     border: none;
     border-bottom: 1px solid #BDBDBD;
     margin: 1px 50px;
-    width: 370px;
+    max-width: 370px;
     background:white;
 
 }
 .free-button{
-    width: 470px;
+    width: 471px;
     padding: 25px;
     font-family: Open Sans;
     font-size: 15px;
@@ -107,4 +111,73 @@ display: flex;
     cursor: pointer;
     color: #F5F5F5;
 
+}
+@media (max-width: 1510px) {
+    .axit-container {
+        max-width: 992px;
+    }
+
+    .axit-logo {
+        width: 112px;
+        height: 41px;
+    }
+
+    .modern {
+        font-size: 36px;
+    }
+    .free {
+        max-width: 398px;
+
+    }
+    .free-data{
+        max-width: 350px;
+    }
+    .free-button{
+        max-width: 398px;
+    }
+}
+@media (max-width: 1024px) {
+    .axit-container{
+        max-width: 288px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+        padding-bottom: 50px;
+
+    }
+    .axit-block{
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 56px;
+    }
+    .modern {
+        font-size: 36px;
+        text-align: center;
+    }
+    .modern:after{
+        left: 0;
+        transform: translate(45%, 0);
+}
+    .submodern{
+        text-align: center;
+        max-width: none;
+    }
+    .free{
+        margin: 0 auto;
+        max-width: 288px;
+    }
+    .free-button{
+        max-width: 288px;
+        margin-top: 50px;
+    }
+    .free-data{
+        max-width: 240px;
+    }
+    .axit-download{
+        padding: 15px 90px;
+        margin-top: 40px;
+    }
 }
