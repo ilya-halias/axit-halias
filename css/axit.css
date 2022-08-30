@@ -6,6 +6,9 @@
     background-position: center;
 
 }
+span{
+    color: #EC7979;
+}
 .axit-container{
     display: flex;
     justify-content: space-between;

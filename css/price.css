@@ -1,6 +1,9 @@
 .price{
     background-color: #F5F5F5;
 }
+.price__block{
+    padding: 50px;
+}
 .section{
     padding: 0;
     list-style: none;
@@ -12,6 +15,10 @@
     min-width: 370px;
     color: #F5F5F5;
     margin-top: 79px;
+}
+.section__1:hover{
+    box-shadow: 5px 5px 5px 5px #BDBDBD;
+    margin-top: 40px;
 }
 .section__1--Basic{
     font-family: Open Sans;
@@ -47,9 +54,7 @@
     margin:0;
     padding: 10px 0;
 }
-.section__middle{
-    margin-top: 59px;
-}
+
 @media (max-width:1510px){
     .section__1{
         min-width: 310px;
