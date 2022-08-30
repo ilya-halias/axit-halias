@@ -16,15 +16,14 @@
     max-width: 670px;
 }
 .modern{
-    font-family: Raleway;
     font-size: 48px;
     font-weight: 500;
     line-height: 56px;
     text-align: left;
     color: #FFFFFF;
-    position: relative;
     margin: 70px 0 0;
     padding-bottom: 55px;
+    position: relative;
 
 }
 .modern:after{
@@ -34,12 +33,10 @@
     height: 1px;
     background-color: #F5F5F5;
     bottom: 0;
-
     left: 0;
 }
 .submodern{
     margin-top: 100px;
-    font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
@@ -56,9 +53,10 @@
 }
 .free{
     max-width: 470px;
-    border: 1px solid#FFFFFF;
     background: #FFFFFF;
     max-height: 450px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 
 }
 .axit-imput{
@@ -159,7 +157,7 @@
     }
     .modern:after{
         left: 0;
-        transform: translate(45%, 0);
+        transform: translate(33%, 0);
 }
     .submodern{
         text-align: center;

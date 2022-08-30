@@ -1,27 +1,29 @@
-.container{
-    max-width: 1170px;
-    margin: 0 auto;
+body {
     padding: 20px;
-    font-size: 30px;
+}
+
+.title {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    min-width: 300px;
+    margin: 20px auto 0;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 37px;
+    font-weight: 700;
+    color: white;
     text-transform: uppercase;
-    font-weight: bold;
-    color:white;
+    background-color: #FDA085;
 }
-.list{
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-}
-.banner{
-    background-color: orangered;
-}
-.item__banner{
-    background-color: darkorange;
-}
-.grey-text{
-    background-color: orange;
-}
-.item__text{
-    color: orange;
-    font-size: 20px;
+
+.button:hover {
+    background-color: #F5576C;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: 10px solid darkorange;
+    transition-duration: 2s;
 }

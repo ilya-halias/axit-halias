@@ -1,6 +1,7 @@
 .container{
     max-width: 1170px;
     margin: 0 auto;
+    font-family: Raleway;
 }
 
 button , a{
@@ -8,7 +9,8 @@ button , a{
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
+    color: white;
 }
 body {
     margin: 0;

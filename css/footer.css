@@ -17,6 +17,15 @@
     line-height: 21px;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
-margin: 0 auto;
+    margin: 0 auto;
     padding-bottom: 27px;
+}
+@media (max-width: 1024px) {
+    .social {
+        gap: 20px;
+    }
+    .vector{
+        max-width: 22px;
+        max-height: 19px;
+    }
 }

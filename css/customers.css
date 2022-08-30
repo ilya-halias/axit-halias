@@ -4,7 +4,6 @@
 
 .customers{
     text-align: center;
-    padding-top: 50px;
 
 }
 .subtitle{
@@ -114,5 +113,11 @@ max-width: 317px;
     .comments{
         flex-direction: column;
     }
-
+    .manager__text::after{
+        right: 228px;
+        top: 200px;
+    }
+    .customers__wrap{
+        margin: 40px 0;
+    }
 }

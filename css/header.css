@@ -24,7 +24,7 @@ list-style: none;
     padding: 15px 0;
    }
 @media (max-width: 1510px) {
-    .header-containerr{
+    .header-container{
         max-width: 992px;
     }
 }
@@ -41,9 +41,4 @@ list-style: none;
 .allblock-element{
     padding: 20px;
 }
-.logo{
-
-}
-
-
 }

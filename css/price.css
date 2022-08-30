@@ -29,6 +29,7 @@
     margin-top: 2px;
     padding: 20px 0;
     margin-bottom: 1px;
+    border: 2px solid #F5F5F5;
 
 }
 .section__1--Free{
@@ -37,11 +38,12 @@
     font-weight: 400;
     background-color: #252525;
     margin: 1px auto;
+    border: 2px solid #F5F5F5;
 }
 .section__1--space{
     background-color: #FFFFFF;
     color: #252525;
-    border:1px solid #252525;
+    border: 2px solid #F5F5F5;
     margin:0;
     padding: 10px 0;
 }

@@ -19,8 +19,7 @@
     max-width: 1120px;
 }
 .contact-data__field{
-    padding: 19px 0;
-    margin-bottom: 16px;
+    padding: 39px 0;
     font-family: Open Sans;
     font-size: 14px;
     font-weight: 400;
@@ -53,10 +52,18 @@ textarea{
     max-width: 370px;
     padding: 20px;
 }
+@media (max-width: 1510px){
+    textarea{
+        padding-bottom: 100px;
+    }
+}
 @media (max-width: 1024px){
     .contact-data{
         flex-direction: column;
         max-width: 985px;
+    }
+    textarea{
+        padding-bottom: 100px;
     }
     .contact-data__field{
         min-width: 288px;
