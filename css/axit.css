@@ -1,0 +1,184 @@
+.axit{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/city.png);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+span{
+    color: #EC7979;
+}
+.axit-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    padding-bottom: 135px;
+}
+.axit-block{
+    max-width: 670px;
+}
+.modern{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 70px 0 0;
+    padding-bottom: 55px;
+    position: relative;
+
+}
+.modern:after{
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 1px;
+    background-color: #F5F5F5;
+    bottom: 0;
+    left: 0;
+}
+.submodern{
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #F5F5F5;
+    max-width: 270px;
+}
+.axit-download{
+    color: #F5F5F5;
+    background-color: rgba(28,28,28,0);;
+    border:2px solid#F5F5F5;
+    padding: 15px 90px;
+    margin-top: 40px;
+}
+.free{
+    max-width: 470px;
+    background: #FFFFFF;
+    max-height: 450px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.axit-imput{
+    max-height: 450px;
+}
+.free-head{
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}
+.free-data{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    padding: 24px;
+    width: 370px;
+    border: none;
+    border-bottom: 1px solid#BDBDBD;
+    display: block;
+}
+.free-section{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    margin: 1px 50px;
+    max-width: 370px;
+    background:white;
+
+}
+.free-button{
+    width: 471px;
+    padding: 25px;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 80px;
+    background: #EC7979;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 5px solid #EC7979;
+    margin-bottom: -1px;
+    cursor: pointer;
+    color: #F5F5F5;
+
+}
+@media (max-width: 1510px) {
+    .axit-container {
+        max-width: 992px;
+    }
+
+    .axit-logo {
+        width: 112px;
+        height: 41px;
+    }
+
+    .modern {
+        font-size: 36px;
+    }
+    .free {
+        max-width: 398px;
+
+    }
+    .free-data{
+        max-width: 350px;
+    }
+    .free-button{
+        max-width: 398px;
+    }
+}
+@media (max-width: 1024px) {
+    .axit-container{
+        max-width: 288px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+        padding-bottom: 50px;
+
+    }
+    .axit-block{
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 56px;
+    }
+    .modern {
+        font-size: 36px;
+        text-align: center;
+    }
+    .modern:after{
+        left: 0;
+        transform: translate(33%, 0);
+}
+    .submodern{
+        text-align: center;
+        max-width: none;
+    }
+    .free{
+        margin: 0 auto;
+        max-width: 288px;
+    }
+    .free-button{
+        max-width: 288px;
+        margin-top: 50px;
+    }
+    .free-data{
+        max-width: 240px;
+    }
+    .axit-download{
+        padding: 15px 90px;
+        margin-top: 40px;
+    }
+}

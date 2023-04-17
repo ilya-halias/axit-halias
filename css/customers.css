@@ -1,0 +1,124 @@
+.title{
+    position: relative;
+}
+
+.customers{
+    text-align: center;
+    padding: 55px;
+
+}
+.subtitle{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+}
+.customers__title{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: Raleway;
+    padding-bottom: 60px;
+    margin: 0;
+}
+.customers__title:after{
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    bottom: 0;
+    left:50%;
+    transform: translate(-50%,0);
+}
+
+.comments{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 0;
+    margin: 32px 0 0 0;
+
+
+}
+.comment{
+    max-width: 370px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #86878B;
+    margin: 0 0;
+
+
+}
+.manager__text{
+    background-color: #E2E2E2;
+    margin: 0 0;
+    padding: 38px 17px;
+    border-radius: 5%;
+    position: relative;
+}
+
+.manager__text::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #E2E2E2;
+    top:180px;
+    right: 290px;}
+
+.customers__wrap{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 70px;
+    gap: 30px;
+
+
+}
+
+.manager__name{
+    font-family: Open Sans;
+    font-weight: 700;
+    text-align: left;
+    margin: 0 auto;
+    color: #000000;
+;
+
+
+}
+.manager__post{
+    font-family: Raleway;
+    font-weight: 400;
+    text-align: left;
+    margin: 0 auto;
+    color: #000000;
+    margin-top: 15px;
+
+}
+@media (max-width: 1510px) {
+    .comment{
+max-width: 317px;
+
+    }
+    .manager__text::after{
+        right: 250px;
+    }
+}
+@media (max-width: 1024px) {
+    .comments{
+        flex-direction: column;
+    }
+    .manager__text::after{
+        right: 228px;
+        top: 200px;
+    }
+    .customers__wrap{
+        margin: 40px 0;
+    }
+}

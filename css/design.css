@@ -1,0 +1,50 @@
+.design{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/image.png);
+    background-position: center;
+}
+.axure{
+    padding: 50px;
+}
+.des{
+    color: #FFFFFF;
+}
+.des:after{
+    background-color: #F8EFEF;
+}
+.sub{
+color: #FFFFFF;
+    margin: 110px 0 0 0;
+
+}
+.design__button{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 20px 140px;
+    margin: 73px 0 0 0;
+border:2px solid#FFFFFF;
+    background-color: rgba(28,28,28,0);
+    transform: translate(106%, 0);
+    text-align: center;
+}
+@media (max-width: 1510px) {
+    .design__button {
+        transform: translate(105%, 0);
+        padding: 20px 110px;
+    }
+}
+@media (max-width: 1024px) {
+    .design__button {
+        transform: translate(5%, 0);
+        padding: 20px 90px;
+        margin-top: 60px;
+        margin-bottom: 58px;
+    }
+    .sub{
+        margin-top: 20px;
+}
+
+
+
+}
